@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <title>Look Who's Talking!</title>
+    <!--This includes the jQuery library we will need to get everything interactive-->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+    <!--This is the CSS script that governs the look of the experiment-->
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="initial-scale=1.0" />
+  </head>
+  <!--BELOW ARE ALL THE SLIDES FOR THE EXPERIMENT-->
+  <body>
+    <!--This is the instructions slide that starts off the experiment-->
+    <div class="slide" id="instructions"> 
+      <img src="images/stanford.png" alt="Stanford University">
+        <p id='logo-text'>Stanford Language and Cognition Lab, Stanford Phonetics Lab</p>
+   
+        <p class="block-text">
+         password: <br>
+        <input type="text" id="pswd" name="pswd" size="30"> 
+        </p>
+
+        <p class="block-text">
+         subject ID: <br>
+        <input type="text" id="subjectID" name="subjectID" size="30"> 
+        </p>
+        <div id="age_box">
+        <p class="block-text">
+          Age: <input type="text" id="age_entry" name="age_entry" size="30">
+        </p>
+        </div>
+      <div id="gender_box">
+        <p class="block-text">
+          <span>Gender:</span>
+          <select type="text" id="gender_entry" name="gender_entry" size="30">
+            <option>M</option>
+            <option>F</option>
+          </select>
+      </p>
+    </div>
+    <div id="list_box">
+        <p class="block-text">
+          Select the list to use:
+          <select type="text" id="list_number" name="list_number" size="30">
+            <option></option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+        </p>
+      </div>
+        <button type="button" id="startButton" onClick="this.blur(); experiment.training()"><font size="24">Start</font></button>
+        <div id="checkMessage"> </div><!--dynamically built in javascript-->
+    </div>
+ 
+ <!--This is the training slide-->
+  <div class="slide" id="training"></div>
+  <!--This is the 'start' slide-->
+  <div class="slide" id="start">
+    <br><br><br><br><br><br><br>
+      <center>
+        <button type="button" onClick="this.blur(); experiment.init()">
+          <font size="24">Start</font>
+        </button>
+        <p id="pleaseWait"></p>
+      </center>
+  </div>
+  <!--This is the 'stage' slide-->
+   <div class="slide" id="stage">
+      <div id="labelInst"> </div> <!--dynamically built in javascript-->
+      <!--This will govern the table of visual stimuli-->
+      <div id="objects" style="position: absolute"> </div> <!--dynamically built in javascript-->
+   </div>
+    <!--This is the slide which displays when everything's finished-->
+    <div class="slide" id="finished">
+      <p class="block-text" size="40">
+        Thanks for playing!
+      </p>
+    </div>
+    <!--This is the sound player to use throughout the experiment-->
+    <audio id="sound_player">
+	<source src="AudioClips/chimes.wav" type="audio/wav">
+    </audio>
+    <!--Gets the javascript script that runs the experiment-->
+    <script src="clav_ipad_1.js"></script>
+  </body>
+</html>

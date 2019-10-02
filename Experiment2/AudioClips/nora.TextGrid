@@ -1,0 +1,318 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 250.53197278911566 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "foo" 
+        xmin = 0 
+        xmax = 250.53197278911566 
+        intervals: size = 76 
+        intervals [1]:
+            xmin = 0 
+            xmax = 6.431462585034014 
+            text = "" 
+        intervals [2]:
+            xmin = 6.431462585034014 
+            xmax = 8.030383219954649 
+            text = "banana" 
+        intervals [3]:
+            xmin = 8.030383219954649 
+            xmax = 10.219170445956161 
+            text = "" 
+        intervals [4]:
+            xmin = 10.219170445956161 
+            xmax = 11.554707734945831 
+            text = "belt" 
+        intervals [5]:
+            xmin = 11.554707734945831 
+            xmax = 14.193838498362307 
+            text = "" 
+        intervals [6]:
+            xmin = 14.193838498362307 
+            xmax = 15.544274376417233 
+            text = "bike" 
+        intervals [7]:
+            xmin = 15.544274376417233 
+            xmax = 17.48463718820862 
+            text = "" 
+        intervals [8]:
+            xmin = 17.48463718820862 
+            xmax = 18.730882734046002 
+            text = "boot" 
+        intervals [9]:
+            xmin = 18.730882734046002 
+            xmax = 22.513023431594863 
+            text = "" 
+        intervals [10]:
+            xmin = 22.513023431594863 
+            xmax = 23.77668934240363 
+            text = "" 
+        intervals [11]:
+            xmin = 23.77668934240363 
+            xmax = 25.530490047871 
+            text = "" 
+        intervals [12]:
+            xmin = 25.530490047871 
+            xmax = 26.884574829931974 
+            text = "car" 
+        intervals [13]:
+            xmin = 26.884574829931974 
+            xmax = 31.569376417233563 
+            text = "" 
+        intervals [14]:
+            xmin = 31.569376417233563 
+            xmax = 32.858348450491306 
+            text = "" 
+        intervals [15]:
+            xmin = 32.858348450491306 
+            xmax = 46.67307709750567 
+            text = "" 
+        intervals [16]:
+            xmin = 46.67307709750567 
+            xmax = 47.98561980347694 
+            text = "chair" 
+        intervals [17]:
+            xmin = 47.98561980347694 
+            xmax = 53.91616402116402 
+            text = "" 
+        intervals [18]:
+            xmin = 53.91616402116402 
+            xmax = 55.171686507936506 
+            text = "clock" 
+        intervals [19]:
+            xmin = 55.171686507936506 
+            xmax = 65.64612811791383 
+            text = "" 
+        intervals [20]:
+            xmin = 65.64612811791383 
+            xmax = 67.19917233560092 
+            text = "car" 
+        intervals [21]:
+            xmin = 67.19917233560092 
+            xmax = 83.74084750566894 
+            text = "" 
+        intervals [22]:
+            xmin = 83.74084750566894 
+            xmax = 85.90524943310658 
+            text = "clock" 
+        intervals [23]:
+            xmin = 85.90524943310658 
+            xmax = 87.50770408163265 
+            text = "" 
+        intervals [24]:
+            xmin = 87.50770408163265 
+            xmax = 88.77208049886622 
+            text = "" 
+        intervals [25]:
+            xmin = 88.77208049886622 
+            xmax = 91.01491548134406 
+            text = "" 
+        intervals [26]:
+            xmin = 91.01491548134406 
+            xmax = 92.37121315192745 
+            text = "" 
+        intervals [27]:
+            xmin = 92.37121315192745 
+            xmax = 94.1001247165533 
+            text = "" 
+        intervals [28]:
+            xmin = 94.1001247165533 
+            xmax = 95.45608843537416 
+            text = "desk" 
+        intervals [29]:
+            xmin = 95.45608843537416 
+            xmax = 96.90704535147394 
+            text = "" 
+        intervals [30]:
+            xmin = 96.90704535147394 
+            xmax = 98.38150793650794 
+            text = "desk" 
+        intervals [31]:
+            xmin = 98.38150793650794 
+            xmax = 104.14052154195012 
+            text = "" 
+        intervals [32]:
+            xmin = 104.14052154195012 
+            xmax = 105.60001889644748 
+            text = "coat" 
+        intervals [33]:
+            xmin = 105.60001889644748 
+            xmax = 107.74733560090704 
+            text = "" 
+        intervals [34]:
+            xmin = 107.74733560090704 
+            xmax = 109.11135487528345 
+            text = "glasses" 
+        intervals [35]:
+            xmin = 109.11135487528345 
+            xmax = 110.33511337868481 
+            text = "" 
+        intervals [36]:
+            xmin = 110.33511337868481 
+            xmax = 111.58257369614513 
+            text = "gloves" 
+        intervals [37]:
+            xmin = 111.58257369614513 
+            xmax = 113.34440791131267 
+            text = "" 
+        intervals [38]:
+            xmin = 113.34440791131267 
+            xmax = 114.64051776266062 
+            text = "hat" 
+        intervals [39]:
+            xmin = 114.64051776266062 
+            xmax = 115.63302721088436 
+            text = "" 
+        intervals [40]:
+            xmin = 115.63302721088436 
+            xmax = 116.99692743764173 
+            text = "" 
+        intervals [41]:
+            xmin = 116.99692743764173 
+            xmax = 118.16920445956161 
+            text = "" 
+        intervals [42]:
+            xmin = 118.16920445956161 
+            xmax = 119.69141897784756 
+            text = "" 
+        intervals [43]:
+            xmin = 119.69141897784756 
+            xmax = 124.81729769747848 
+            text = "" 
+        intervals [44]:
+            xmin = 124.81729769747848 
+            xmax = 124.97556689342404 
+            text = "" 
+        intervals [45]:
+            xmin = 124.97556689342404 
+            xmax = 126.14324640967499 
+            text = "lamp" 
+        intervals [46]:
+            xmin = 126.14324640967499 
+            xmax = 126.2020294909207 
+            text = "" 
+        intervals [47]:
+            xmin = 126.2020294909207 
+            xmax = 138.74742630385487 
+            text = "" 
+        intervals [48]:
+            xmin = 138.74742630385487 
+            xmax = 140.03608843537415 
+            text = "mug" 
+        intervals [49]:
+            xmin = 140.03608843537415 
+            xmax = 149.39418934240362 
+            text = "" 
+        intervals [50]:
+            xmin = 149.39418934240362 
+            xmax = 150.7645736961451 
+            text = "pajamas" 
+        intervals [51]:
+            xmin = 150.7645736961451 
+            xmax = 152.36962131519275 
+            text = "" 
+        intervals [52]:
+            xmin = 152.36962131519275 
+            xmax = 153.5224765144153 
+            text = "pants" 
+        intervals [53]:
+            xmin = 153.5224765144153 
+            xmax = 155.83501133786848 
+            text = "" 
+        intervals [54]:
+            xmin = 155.83501133786848 
+            xmax = 157.0597505668934 
+            text = "pen" 
+        intervals [55]:
+            xmin = 157.0597505668934 
+            xmax = 160.50724036281179 
+            text = "" 
+        intervals [56]:
+            xmin = 160.50724036281179 
+            xmax = 161.9512358276644 
+            text = "" 
+        intervals [57]:
+            xmin = 161.9512358276644 
+            xmax = 162.73471655328797 
+            text = "" 
+        intervals [58]:
+            xmin = 162.73471655328797 
+            xmax = 164.41625094482237 
+            text = "" 
+        intervals [59]:
+            xmin = 164.41625094482237 
+            xmax = 168.36649659863946 
+            text = "" 
+        intervals [60]:
+            xmin = 168.36649659863946 
+            xmax = 169.76073696145124 
+            text = "ring" 
+        intervals [61]:
+            xmin = 169.76073696145124 
+            xmax = 172.2467006802721 
+            text = "" 
+        intervals [62]:
+            xmin = 172.2467006802721 
+            xmax = 173.63273242630385 
+            text = "scissors" 
+        intervals [63]:
+            xmin = 173.63273242630385 
+            xmax = 174.2692403628118 
+            text = "" 
+        intervals [64]:
+            xmin = 174.2692403628118 
+            xmax = 174.50035903250188 
+            text = "" 
+        intervals [65]:
+            xmin = 174.50035903250188 
+            xmax = 175.91319727891158 
+            text = "shirt" 
+        intervals [66]:
+            xmin = 175.91319727891158 
+            xmax = 206.70561224489796 
+            text = "" 
+        intervals [67]:
+            xmin = 206.70561224489796 
+            xmax = 208.44500453514738 
+            text = "sofa" 
+        intervals [68]:
+            xmin = 208.44500453514738 
+            xmax = 210.6984058956916 
+            text = "" 
+        intervals [69]:
+            xmin = 210.6984058956916 
+            xmax = 212.0192857142857 
+            text = "sweater" 
+        intervals [70]:
+            xmin = 212.0192857142857 
+            xmax = 220.33914115646257 
+            text = "" 
+        intervals [71]:
+            xmin = 220.33914115646257 
+            xmax = 221.47788548752834 
+            text = "swimsuit" 
+        intervals [72]:
+            xmin = 221.47788548752834 
+            xmax = 238.45472789115647 
+            text = "" 
+        intervals [73]:
+            xmin = 238.45472789115647 
+            xmax = 239.98472222222222 
+            text = "watch" 
+        intervals [74]:
+            xmin = 239.98472222222222 
+            xmax = 243.26445578231292 
+            text = "" 
+        intervals [75]:
+            xmin = 243.26445578231292 
+            xmax = 244.70592970521542 
+            text = "socks" 
+        intervals [76]:
+            xmin = 244.70592970521542 
+            xmax = 250.53197278911566 
+            text = "" 
