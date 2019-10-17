@@ -80,7 +80,7 @@ experiment_result_array[0] = result_headers; //puts in headers for result file
 
 /* create audio context for experiment: times will be relative to this */
 var AudioContext = AudioContext || webkitAudioContext;
-var aC;
+var aC = new AudioContext(); // should this be AudioContext???
 /*---------------- HELPER FUNCTIONS------------------*/
 
 // show slide function
@@ -448,7 +448,8 @@ function playWebAudio(wavFile, delay) {
     var pTime;
 
     /* schedule sound to play in the brave future */
-    pTime = aC.currentTime + ( delay / 1000 );
+    pTime = aC.currentTime + ( delay / 1000 ); 
+    // error: Cannot read property 'currentTime' of undefined
 
     bufferLoader = new BufferLoader(
     aC,
